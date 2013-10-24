@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "description": "Filter bunyan logs using relative time.",
   "main": "index.js",
+  "bin": {
+    "bunyan-reltime": "index.js"
+  },
   "dependencies": {
     "JSONStream": "~0.7.1",
     "optimist": "~0.6.0",
-    "reltime": "~0.0.1"
+    "reltime": "~0.0.1",
+    "moment": "~2.3.1"
   },
   "devDependencies": {},
   "scripts": {
