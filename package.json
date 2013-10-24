@@ -1,0 +1,28 @@
+{
+  "name": "bunyan-reltime",
+  "version": "0.1.0",
+  "description": "Filter bunyan logs using relative time.",
+  "main": "index.js",
+  "dependencies": {
+    "JSONStream": "~0.7.1",
+    "optimist": "~0.6.0",
+    "reltime": "~0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chakrit/bunyan-reltime"
+  },
+  "keywords": [
+    "bunyan",
+    "reltime"
+  ],
+  "author": "Chakrit Wichian <service@chakrit.net> (http://chakrit.net)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/chakrit/bunyan-reltime/issues"
+  }
+}
