@@ -38,7 +38,7 @@ module.exports = (function(undefined) {
     process.stdin
       .pipe(JSONStream.parse())
       .pipe(new TimeFilterStream(reference))
-      .pipe(JSONStream.stringify())
+      .pipe(JSONStream.stringify(false))
       .pipe(process.stdout);
   };
 })();
