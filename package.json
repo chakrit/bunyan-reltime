@@ -1,6 +1,6 @@
 {
   "name": "bunyan-reltime",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Filter bunyan logs using relative time.",
   "main": "index.js",
   "bin": {
